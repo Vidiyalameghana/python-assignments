@@ -1,0 +1,31 @@
+#compqrision operators
+z=float(input('enter a value:'))
+m=float(input('enter a value:'))
+print('is z is greater than m?')
+print(z>m)
+print('is z is less than m?')
+print(z<m)
+print('is z is less than or equal to m?')
+print(z<=m)
+print('is z is greater than or equal to m?')
+print(z>=m)
+print('is z is equal to m?')
+print(z==m)
+print('is z is not equal to m?')
+print(z!=m)
+
+OUtPUT
+enter a value:35
+enter a value:2
+is z is greater than m?
+True
+is z is less than m?
+False
+is z is less than or equal to m?
+False
+is z is greater than or equal to m?
+True
+is z is equal to m?
+False
+is z is not equal to m?
+True

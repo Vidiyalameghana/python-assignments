@@ -1,0 +1,10 @@
+#converting km to cm
+km=int(input('enter length in kms:'))
+cm=100000*km
+print('length in cms:',cm)
+
+
+OUTPUT
+
+enter length in kms:20
+length in cms: 2000000

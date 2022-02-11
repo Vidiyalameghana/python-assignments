@@ -1,0 +1,35 @@
+sno=int(input('enter student roll number:'))
+sname=input('enter student name:')
+s1=int(input('english marks:'))
+s2=int(input('telugu marks:'))
+s3=int(input('foundation course marks:'))
+s4=int(input('statistics marks:'))
+s5=int(input('computer science marks:'))
+s6=int(input('maths marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg>=91:
+    print(sname,':O-grade')
+elif avg>=81:
+    print(sname,':A-grade')
+elif avg>=71:
+    print(sname,':B-grade')
+elif avg>=61:
+    print(sname,':C-grade')
+elif avg>=51:
+    print(sname,':D-grade')
+elif avg>=40:
+    print(sname,':pass')
+else:
+    print(sname,':fail')
+
+Output:---------------
+enter student roll number:47
+enter student name:meghana
+english marks:75
+telugu marks:90
+foundation course marks:75
+statistics marks:85
+computer science marks:80
+maths marks:90
+meghana :A-grade

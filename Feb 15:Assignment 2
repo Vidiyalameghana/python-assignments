@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+print(a//b)
+print(a/b) 
+
+Output:---------------
+
+Input (stdin)
+4
+3
+Your Output (stdout)
+1
+1.3333333333333333
+Expected Output
+1
+1.33333333333

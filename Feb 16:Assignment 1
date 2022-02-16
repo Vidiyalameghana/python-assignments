@@ -1,0 +1,20 @@
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+      print(i*i) 
+
+Output:----------------
+Input (stdin)
+5
+Your Output (stdout)
+0
+1
+4
+9
+16
+Expected Output
+0
+1
+4
+9
+16

@@ -1,0 +1,19 @@
+Number = int(input("Enter the Fibonacci Number Range = "))
+
+a = 0
+b = 1
+Sum = 0
+for Num in range(0, Number):
+    print(a, end = '  ')
+    Sum = Sum + a
+    Next = a + b
+    a = b
+    Second = Next
+
+print("The Sum of Fibonacci Series Numbers = " Sum)
+
+Output:-------------------
+
+Enter the Fibonacci Number Range = 3
+0  1  1  The Sum of Fibonacci Series Numbers = 2
+​

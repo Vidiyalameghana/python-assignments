@@ -1,0 +1,23 @@
+l=[]
+o=[]
+e=[]
+n=int(input('enter n value:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in l:
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+print(o,'   ',e) 
+
+Output:----------
+
+output:
+enter n value:4
+2
+3
+4
+5
+[3 5]    [2 4]

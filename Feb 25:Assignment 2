@@ -1,0 +1,28 @@
+l=[]
+n=int(input())
+for i in range(1,n+1):
+    x=int(input())
+    l.append(x)
+print(l)
+m=[]
+c=0
+for i in range(n):
+    if l[i]!=0:
+        c=c+1
+        m.append(l[i])
+print(" non-zero elements=",m)
+print("count=",c)
+
+Output:-----------------
+
+5
+0
+1
+2
+0
+4
+[0, 1, 2, 0, 4]
+ non-zero elements= [1, 2, 4]
+count= 3
+
+Process finished with exit code 0

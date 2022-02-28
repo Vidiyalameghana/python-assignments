@@ -1,0 +1,14 @@
+x=[1,2,3,2,1,3,2,1,2,2]
+l=[]
+for i in x:
+    if i not in l:
+        p=x.count(i)
+        if p%2==1:
+            l.append(i)
+print(l)
+
+Output:--------------
+
+[1, 2]
+
+Process finished with exit code 0

@@ -1,0 +1,19 @@
+n=int(input())
+l=input().split()
+t=[]
+for i in l:
+    t.append(int(i))
+x=[]
+for i in t:
+    if i not in x:
+        x.append(i)
+x.sort(reverse=True)
+print(x[2])
+
+Output:--------------
+
+6
+7 8 5 6 4 9
+7
+
+Process finished with exit code 0

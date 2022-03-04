@@ -1,0 +1,14 @@
+list=[1,2,1,4]
+A=[]
+for i in list:
+    n=list.count(i)
+    if n>1:
+        if A.count(i)==0:
+            A.append(i)
+print(A)
+
+Output:-------------
+
+[1]
+
+Process finished with exit code 0

@@ -1,0 +1,17 @@
+n=input()
+even_lst=[]
+odd_lst=[]
+for i in n:
+    if int(i)%2==0:
+        even_lst.append(i)
+    else:
+        odd_lst.append(i)
+even_lst.sort()
+odd_lst.sort()
+print(*odd_lst,end='   ')
+print(*even_lst)
+
+OUTPUT:----------
+1243536
+
+1353 246

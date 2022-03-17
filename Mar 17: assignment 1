@@ -1,0 +1,16 @@
+ASSIGN-1
+
+s=input()
+l=list(s)
+x=[]
+for i in l:
+    if i=='a' or i=='e' or i=='i' or i=='o' or i=='u':
+        continue
+    else:
+        x.append(i)
+for i in x:
+    print(i,end='')
+
+Output:-----------------
+aeroplane
+rpln

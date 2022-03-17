@@ -1,0 +1,23 @@
+ASSIGN-2
+
+s=input()
+li=list(s)
+l,u,sy,d=0,0,0,0
+for i in li:
+    if(i. islower()):
+        l+=1
+    if(i. isupper()):
+        u+=1
+    if(i=='@','$','&','_'):
+        sy+=1
+    if(i. isdigit()):
+        d+=1
+if(l>=1 and u>=1 and sy>=1 and d>=1):
+    print("password is valid")
+else:
+    print("password is invalid")
+
+Output:-----------
+
+Vmeghi@31
+password is valid

@@ -1,0 +1,29 @@
+students={1:[34,'abc','female','mstcs2',8.2],2:[45,'def','male','mpcs1',8.0],3:[54,'ghi','female','mstcs2',8.9],4:[47,'klm','female','mstcs2',8.9]}
+x=int(input('enter the student no:'))
+print('student no:',students[x][0])
+print('student name:',students[x][1])
+print('student gender:',students[x][2])
+print('student group:',students[x][3])
+print('student result:',students[x][4])
+
+Output:---------
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject22\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject22/main.py"
+enter the student no:4
+student no: 47
+student name: klm
+student gender: female
+student group: mstcs2
+student result: 8.9
+
+Process finished with exit code 0
+        
+               (Or) 
+
+student={'sno':45,'name':'klm','gender':'female','group':'mstcs2','result':8.9}
+print(student)
+
+Output:------------------
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject22\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject22/main.py"
+{'sno': 45, 'name': 'klm', 'gender': 'female', 'group': 'mstcs2', 'result': 8.9}
+
+Process finished with exit code 0

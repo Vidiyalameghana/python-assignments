@@ -1,0 +1,31 @@
+employee={1:[3567,'abc','software','21-6-2010',60000,'kkd'],2:[5678,'ghj','software','6-7-2021',40000,'vizag'],3:[6789,'klm','software','5-7-2022',70000,'hyd']}
+x=int(input('enter employee no:'))
+print('empno:',employee[x][0])
+print('empname:',employee[x][1])
+print('empdesig:',employee[x][2])
+print('empdoj:',employee[x][3])
+print('empsal:',employee[x][4])
+print('city:',employee[x][5])
+
+Output:-------------
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject22\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject22/main.py"
+enter employee no:2
+empno: 5678
+empname: ghj
+empdesig: software
+empdoj: 6-7-2021
+empsal: 40000
+city: vizag
+
+Process finished with exit code 0
+
+              (Or) 
+
+employee={'empno':3456,'ename':'klmn','empdesig':'software','empdoj':'31-7-2022','empsal':50000,'city':'vizag'}
+print(employee)
+
+Output:-------------
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject22\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject22/main.py"
+{'empno': 3456, 'ename': 'klmn', 'empdesig': 'software', 'empdoj': '31-7-2022', 'empsal': 50000, 'city': 'vizag'}
+
+Process finished with exit code 0

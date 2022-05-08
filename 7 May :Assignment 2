@@ -1,0 +1,23 @@
+def prftsqr(x):
+    if (x**(0.5)==int(x**(0.5))):
+        return True
+    return False
+n=int(input())
+l=[]
+d={}
+for i in range(n):
+    l.append(i)
+for i in l:
+    if prftsqr(i):
+        d[i]='yes'
+    else:
+        d[i]='no'
+print(d)
+
+Output:--------
+
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject23\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject23/main.py"
+6
+{0: 'yes', 1: 'yes', 2: 'no', 3: 'no', 4: 'yes', 5: 'no'}
+
+Process finished with exit code 0

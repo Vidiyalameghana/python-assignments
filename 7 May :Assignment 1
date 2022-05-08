@@ -1,0 +1,25 @@
+n=int(input())
+l=[]
+d={}
+for i in range(n):
+    x=int(input())
+    l.append(x)
+j=1
+for i in l:
+    if i%2==0:
+        d[i]='yes'
+    else:
+        d[i]='no'
+print(d)
+
+Output:---------
+
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject23\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject23/main.py"
+4
+1
+2
+3
+4
+{1: 'no', 2: 'yes', 3: 'no', 4: 'yes'}
+
+Process finished with exit code 0

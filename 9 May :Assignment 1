@@ -1,0 +1,23 @@
+n=int(input())
+d={}
+for i in range(n):
+    x=input().split()
+    d[x[0]]=x[1]
+while True:
+    try:
+        EMAIL=input()
+        if EMAIL in d:
+            print(EMAIL,"=",d[EMAIL],sep='')
+        else:print("not found")
+    except:
+        break
+
+Output:-----------
+
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject23\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject23/main.py"
+3
+baba  babameg@gmail.com
+krish krish@gmail.com
+sai   saim@gmail.com
+krish
+krish=krish@gmail.com

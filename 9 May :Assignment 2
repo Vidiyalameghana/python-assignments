@@ -1,0 +1,32 @@
+d={1:['abc',24,'mstcs2'],2:['klm',34,'mstcs2'],3:['jkl',56,'mstcs2']}
+d.pop(3)
+print(d)
+
+Output:-----
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject23\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject23/main.py"
+{1: ['abc', 24, 'mstcs2'], 2: ['klm', 34, 'mstcs2']}
+
+Process finished with exit code 0
+          
+                Or
+
+d={1:['abc',24,'mstcs2'],2:['klm',34,'mstcs2'],3:['jkl',56,'mstcs2']}
+d.clear()
+print(d)
+
+Output:--------
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject23\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject23/main.py"
+{}
+
+Process finished with exit code 0
+
+                Or
+d={1:['abc',24,'mstcs2','klm',34,'mstcs2','jkl',56,'mstcs2'],2:[23,45,56]}
+d.pop(1)
+print(d)
+
+Output:---------
+"C:\Users\jagadeesh vidiyala\PycharmProjects\pythonProject23\venv\Scripts\python.exe" "C:/Users/jagadeesh vidiyala/PycharmProjects/pythonProject23/main.py"
+{2: [23, 45, 56]}
+
+Process finished with exit code 0

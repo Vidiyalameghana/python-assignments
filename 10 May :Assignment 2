@@ -1,0 +1,28 @@
+lower=input("lower value:")
+upper=input("upper value:")
+count = 0
+print("prime numbers between", lower,"and", upper, "are:")
+for num in range (lower, upper+1):
+ if num>1:
+  for i in range (2,num):
+   if num % i==0:
+    break
+  else: 
+    print(num)
+    count += 1
+print ( "count_prime:", count)
+
+OUTPUT:
+5
+1 10
+2 10
+4 6
+3 5
+100 102
+
+
+4
+3
+1
+0
+1

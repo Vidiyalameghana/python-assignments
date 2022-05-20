@@ -1,0 +1,13 @@
+
+num = int(input("Enter a number: "))
+
+def sum_range(num):
+    for a in range(2, num + 1):
+        maxInt = int(a **.5) + 1 
+        for i in range(2, maxInt):
+            if a % i == 0:
+                break
+        else:
+            yield a
+
+print(sum(sum_range(num)))

@@ -1,0 +1,6 @@
+class Solution:
+    def singleNumber(self,l):
+        s=0
+        for i in l:
+            s=s^i
+        return s

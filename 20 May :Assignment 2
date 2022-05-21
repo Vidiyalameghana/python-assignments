@@ -1,0 +1,13 @@
+
+a=int(input())
+b=int(input())
+print('bitwise and',a&b)
+print('bitwise or',a|b)
+print('bitwise xor',a^b)
+
+Output:-------
+12
+13
+bitwise and 12
+bitwise or 13
+bitwise xor 1

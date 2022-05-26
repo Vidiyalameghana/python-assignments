@@ -1,0 +1,13 @@
+
+class Solution(object):
+    def minCostClimbingStairs(self,cost):
+        n=len(cost)
+        if n<3:
+            return min(cost)
+        p=cost[0]
+        c=cost[1]
+        for i in range(2,n):
+            t=min(p,c)+cost[i]
+            p=c
+            c=t
+        return min(p,c)
